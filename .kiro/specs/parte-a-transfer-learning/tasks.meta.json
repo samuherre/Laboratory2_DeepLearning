@@ -1,0 +1,445 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Configuración de entorno dual local/Colab (Sec. 0)": [
+      {
+        "executionId": "0e149afa-b556-4bb4-8ce2-9d9d4100b82d",
+        "chatSessionId": "sess_8b33e392-8d8e-40ae-af5a-64be1b91ba00",
+        "timestamp": 1792111375295
+      }
+    ],
+    "2.1 Documentar la discrepancia D1 y reemplazar la descarga `wget` por Kaggle CLI": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111821927
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111833465
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792112828517
+      }
+    ],
+    "2.2 Añadir Celda_Verificacion de estructura de carpetas": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111822107
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792112831925
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113050191
+      }
+    ],
+    "2.3 Construir ImageFolder y limpieza de corruptas sobre la raíz verificada": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111822252
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113061884
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113527693
+      }
+    ],
+    "3. TODO 1 — Pipeline de transforms (Sec. 2)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111822461
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113531221
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113620513
+      }
+    ],
+    "4. VGG-16 preentrenado e inferencia de muestra (Sec. 3)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111822621
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113635804
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113747036
+      }
+    ],
+    "5. TODO 2 — Extracción de features de 800 imágenes (Sec. 4)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111822774
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113751262
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113821631
+      }
+    ],
+    "6. TODO 3 — Clasificador lineal sobre features (Sec. 5, M1)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111822946
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113826272
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113947344
+      }
+    ],
+    "7. Checkpoint — Verificar coherencia de Sec. 0–5": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111823133
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113955960
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114066297
+      }
+    ],
+    "8.1 Completar TODO 4a/4b/4c y conteo de entrenables por código": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111823308
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114070479
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114203752
+      }
+    ],
+    "8.2 Entrenar M2 congelado 1 época y guardar checkpoint": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111823452
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114207238
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114325259
+      }
+    ],
+    "9.1 Completar TODO 5 (descongelar y entrenar lr=1e-4)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111823623
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114358302
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114637085
+      }
+    ],
+    "9.2 Añadir experimento de learning rate scheduler (preguntas 3 y 7)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111823778
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114640959
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114755135
+      }
+    ],
+    "10.1 Completar TODO 6a/6b/6c (congelar, fc por código, entrenar)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111823955
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114920789
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115051715
+      }
+    ],
+    "10.2 Medir tiempos por época de VGG y ResNet y plantilla empírica": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111824189
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115079656
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115395155
+      }
+    ],
+    "11. Experimento de data augmentation (pregunta 2)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111824371
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114764937
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114916842
+      }
+    ],
+    "12. Comparación de experimentos con TensorBoard (Sec. 9)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111824569
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115399252
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115489753
+      }
+    ],
+    "13. Checkpoint — Verificar secciones 6–9 y experimentos": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111824849
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115800252
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116046700
+      }
+    ],
+    "14.1 Añadir sección opcional EfficientNet-B0": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111825042
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115496154
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115602793
+      }
+    ],
+    "14.2 Plantilla de comparación de accuracy y tiempo (OPCIONAL)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111825203
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115606709
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115766361
+      }
+    ],
+    "15. Preguntas de investigación 1–8 (Sec. 10)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111825392
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116250318
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116464152
+      }
+    ],
+    "16. Smoke_Test local con weights=None (M2 y M3)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111825556
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116050052
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116245695
+      }
+    ],
+    "17. Validar el notebook con nbformat": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111825707
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116475957
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116488948
+      }
+    ],
+    "18. Renombrar el entregable final": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111825861
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116492818
+      },
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792116511669
+      }
+    ],
+    "19. (Usuario, en Colab — Kiro NO ejecuta) Ejecutar \"Run all\" y verificar entrega": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792111826063
+      }
+    ],
+    "2. Dataset de Kaggle y verificación de estructura (Sec. 2, D1)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792113527876
+      }
+    ],
+    "8. TODO 4 — Reemplazar clasificador y congelar features (Sec. 6, M2 congelado, D3)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114325435
+      }
+    ],
+    "9. TODO 5 — Fine-tuning y experimento de scheduler (Sec. 7, M2 fine-tuned)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792114755287
+      }
+    ],
+    "10. TODO 6 — Adaptar ResNet-18 y medir tiempos (Sec. 8, M3)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115395327
+      }
+    ],
+    "14. (OPCIONAL) EfficientNet-B0 (pregunta 8)": [
+      {
+        "executionId": "ca8c6ac7-c150-4f2f-9764-0b69ed64e126",
+        "chatSessionId": "sess_a7c0a6df-3026-4103-b72f-97fa63ef8972",
+        "timestamp": 1792115766513
+      }
+    ]
+  }
+}
